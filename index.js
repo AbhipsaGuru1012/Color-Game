@@ -9,7 +9,7 @@ var resetButton=document.getElementById("reset");
 var modeButtons=document.querySelectorAll(".mode");
 
 init();
-function init()
+function init(){
     /*code for modeButtons */
     setupModeButtons();
     setupSquares();
