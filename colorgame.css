@@ -7,16 +7,16 @@ body{
     width:30%;
     background: purple;
     padding-bottom: 30%;
-    float:left;/*to fit side by side*/
+    float:left;
     margin:1.66%;
     border-radius: 15%;
-    transition: background 0.6s;/*only when background changes takes 0.6s*/
-    -webkit-transition: background 0.6s;/*for other browsers*/
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
     -moz-transition: background 0.6s
 }
 #container{
     max-width:600px;
-    margin:20px auto;/*20px for top and bottom and auto for left and right*/
+    margin:20px auto;
 }
 h1{
     color:white;
@@ -49,12 +49,12 @@ button{
     border:none;
     background: none;
     text-transform: uppercase;
-    height:100%;/*100% to take full height of span*/
+    height:100%;
     font-weight: 700;
     color:steelblue;
     letter-spacing: 1px;
     font-size: inherit;
-    transition: all 0.3s;/*for the fading when we hover*/
+    transition: all 0.3s;
     -webkit-transition:all 0.3s;
     -moz-transition-all:all 0.3s;
     outline: none;
